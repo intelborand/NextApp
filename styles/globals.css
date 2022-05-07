@@ -1,0 +1,51 @@
+html,
+body,
+h5 {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    background-color: #101113;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container{
+  width: 100%;
+  max-width: 1400px;
+  margin: 20px auto;
+  
+}
+
+.back-btn{
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  margin-left: 12px;
+}
+.back-btn:hover{
+  color: #4c99e6;
+}
+
+.video-desc{
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+.video-desc h2{
+  color: white;
+  margin: 0;
+  margin-left: 15px;
+}
+.video-desc p{
+  color: white;
+  margin: 0 0 20px 15px;
+  font-size: 14px;
+}
