@@ -10,7 +10,7 @@ export default function Video() {
             controls
             preload="auto"
             width="100%"
-            height="800"
+            height="500"
             poster="MyPoster.jpg"
             data-setup="{}"
             >

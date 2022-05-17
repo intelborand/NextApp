@@ -5,7 +5,7 @@ h5 {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-    background-color: #101113;
+    background-color: #fff;
 }
 
 a {
@@ -17,9 +17,106 @@ a {
   box-sizing: border-box;
 }
 
+header{
+  width: 100%;
+  /* max-width: 1600px; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: grey;
+  height: 60px;
+  position: relative;
+}
+
+.logo{
+  font-weight: 700;
+}
+
+.nav-bar{
+  position: absolute;
+
+}
+
+
+.nav-bar__links{
+  display: flex;
+  list-style: none;
+
+}
+
+.nav-bar__links li{
+  margin: 0 30px;
+  cursor: pointer;
+}
+
+/*............Categories */
+
+
+.categories-container{
+width: 100%;
+}
+
+
+.categories{
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.categories__btn{
+  background: rgb(191, 196, 196);
+  color: black;
+  padding: 5px 30px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: transform 200ms ease-in;
+}
+.categories__btn:hover{
+  transform: scale(1.1);
+}
+
+.main{
+  width: 100%;
+  display: flex;
+}
+
+.main__video{
+  width: 75%;
+  padding: 100px;
+}
+
+.main__chat{
+  width: 25%;
+}
+
+.main__chat-container{
+  margin-right: 40px;
+  padding: 20px;
+  height: 600px;
+  background-color: grey;
+}
+
+.main__chat-container__btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main__chat-container__btn button{
+  margin: 0 10px;
+}
+
+.main__chat-container__area{
+  margin-top: 30px;
+  width: 100%;
+  height: 500px;
+  background-color: #fff;
+}
+
 .container{
   width: 100%;
-  max-width: 1400px;
+  max-width: auto;
   margin: 20px auto;
   
 }

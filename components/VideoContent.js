@@ -1,24 +1,28 @@
 import React from 'react'
 import Carousel from './Carousel'
+import CategoriesBar from './CategoriesBar'
+import Chat from './Chat'
+import Header from './Header'
 import Video from './Video'
 
 export default function VideoContent() {
   return (
     <>
     <div className='container'>
-        <nav>
-            <div className='back-btn'>Back</div>
-        </nav>
-        <div className='video-container'>
-
-          <Video />
-
-          <div className='video-desc'>
-            <h2>Betsy & Irv trailer</h2>
-            <p>17d ago - Watch Betsy Sailor's story of survival and unexpected hero, Penn State offensive tackle Irv Pankey, who helped her as she confronted a predator, an institution and a justice system. Now streaming on ESPN+.</p>
-          </div>
+        <Header />
         </div>
-    </div>
+
+        <div className='categories-container'>
+          <CategoriesBar />
+        </div>
+
+        <div className='main'>
+          <div className='main__video'>
+            <Video />
+          </div>
+           <Chat />
+        </div>
+
        <Carousel title={"LIVE"}/>
        <Carousel title={"TRAILERS"} />
     </>
